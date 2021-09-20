@@ -22,10 +22,6 @@ public class Worm {
           wormAdversary.setMaxLife(wormAdversary.getMaxLife() - damage);
      }
 
-     public boolean isDead() {
-          return this.getMaxLife() <= 0;
-     }
-
      public int getMaxLife() {
           return maxLife;
      }
